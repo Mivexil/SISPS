@@ -4,8 +4,10 @@
     <title ng-bind="models.helloAngular"></title>
 </head>
 <body>
-    <input type="text" ng-model="models.helloAngular" />
-    <h1>{{models.helloAngular}}</h1>   
+    <input type="file" id="file" name="file" />
+    <button ng-click="add()">Check</button>
+    <span ng-bind="models.blackPlayer"></span>
+    <span ng-bind="models.whitePlayer"></span>
     <script src="~/lib/angular/angular.min.js"></script>
     <script src="~/js/Controllers/StartController.js"></script>
     <script src="~/js/SISPS.js"></script>

@@ -259,5 +259,6 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
-/SISPS/wwwroot/js
+/SISPS/wwwroot/js/**/*.js
+/SISPS/wwwroot/js/**/*.js.map
 /SISPS/wwwroot/lib

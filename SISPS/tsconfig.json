@@ -7,7 +7,7 @@
     "outDir": "wwwroot/js"
   },
   "exclude": [
-    "wwwroot",
+    "wwwroot/lib",
     "node_modules"
   ],
   "compileOnSave": true
